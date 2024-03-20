@@ -1,0 +1,20 @@
+h1{
+    text-align: center;
+}
+body{
+    text-align: center;
+    background-color: gray;
+}
+.amarillo{
+    text-align: center;
+    color: yellow;
+}
+.azul{
+    text-align: center;
+    color: blue;
+}
+.roja{
+    text-align: center;
+    color: red;
+}
+
