@@ -51,3 +51,55 @@ p.hidden {
 p.mix {
     border-style: dotted dashed solid double;
 }
+* La propiedad border-width con tamaño especifico*/
+p.uno {
+    border-style: solid;
+    border-width: 5px 20px;
+    /* 5px top and bottom, 20px on the sides */
+}
+
+p.dos {
+    border-style: solid;
+    border-width: 20px 5px;
+    /* 20px top and bottom, 5px on the sides */
+}
+
+p.tres {
+    border-style: solid;
+    border-width: 25px 10px 4px 35px;
+    /* 25px top, 10px right, 4px bottom and 35px left */
+}
+.section{
+    display: inline-flex;
+}
+
+figure img{
+    width: 400px;
+    height: 500px;
+}
+
+.img1{
+    border: 15px inset yellow;
+    border-width: 50px 30px 60px 90px;
+
+}
+.img2{
+    border: 30px outset blue;
+    border-width: 20px 50px 80px 40px;
+
+}
+.img3{
+    border: 10px dashed green;
+    border-width: 60px 20px 80px 10px;
+
+}
+.img4{
+    border: 40px ridge red;
+    border-width: 30px 40px 100px 10px;
+
+}
+.img5{
+    border: 60px double purple;
+    border-width: 100px 60px 10px 50px;
+
+}
